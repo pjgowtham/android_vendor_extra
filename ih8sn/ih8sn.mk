@@ -1,4 +1,4 @@
-IH8SN_CONFIG := ih8sn.conf.$(subst lineage_,,$(TARGET_PRODUCT))
+IH8SN_CONFIG := ih8sn.conf
 IH8SN_PATH := $(EXTRA_PATH)/ih8sn
 
 ifneq (,$(wildcard $(IH8SN_PATH)/$(IH8SN_CONFIG)))
